@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+
+    <title>Portofolio Tailwind</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header
+      class="w-full bg-transparent absolute top-0 left-0 w- items-center z-10"
+    >
+      <div class="container">
+        <div class="py-2 flex items-center justify-between relative">
+          <div class="px-8">
+            <a href="#home" class="items-center font-bold text-lg text-primary"
+              >Home</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white/80 shadow-lg rounded-lg max-w-64 w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:right-2"
+            >
+              <ul class="block bg-whit lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap justify-center gap-10">
+          <div class="self-center px-6 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Halo 🎉, Saya
+              <span
+                class="block mb-3 font-bold text-dark text-4xl mt-1 lg:text-5xl"
+              >
+                "Your Name"</span
+              >
+            </h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+              Web Developer
+            </h2>
+            <p class="font-medium text-slate-500 mb-10 leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sed
+              unde voluptatum voluptates iste tempora consequuntur reiciendis
+              odit magni, cupiditate, laudantium impedit minus voluptas
+              molestias officia facilis delectus. Qui, reprehenderit.
+            </p>
+            <a
+              href=""
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Contact Us</a
+            >
+          </div>
+          <div class="self-center">
+            <div class="relative h-96 w-96 mt-10 lg:mt-0">
+              <img
+                src="./src/siluet.png"
+                alt="Adi Sofyan Tsauri"
+                class="max-w-full mx-auto"
+              />
+              <span class="absolute inset-0 -z-10 md:scale-125">
+                <svg
+                  width="300"
+                  height="300"
+                  viewBox="0 -30 140 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="oklch(0.666 0.179 58.318)"
+                    d="M56.7,-16.6C66.2,10.8,61.6,44.6,42.1,59.1C22.5,73.6,-11.9,68.7,-37.2,50.5C-62.4,32.3,-78.5,0.8,-70.8,-24.2C-63.1,-49.1,-31.5,-67.5,-4,-66.2C23.6,-64.9,47.2,-44,56.7,-16.6Z"
+                    transform="translate(100 100) scale (1.1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="px-6 lg:w-1/2 lg:pl-14">
+            <h4
+              class="font-bold uppercase text-primary text-lg mb-3 lg:text-xl"
+            >
+              About me
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md">
+              Lorem ipsum dolor sit amet consectetur.
+            </h2>
+            <p class="font-medium text-base text-slate-500 lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+              at, id accusantium esse ut exercitationem deserunt explicabo
+              voluptatibus perferendis minima.
+            </p>
+          </div>
+
+          <div class="pl-6 lg:w-1/2">
+            <h3 class="mt-8 mb-3 font-semibold text-dark text-2xl lg:text-3xl">
+              Follow me
+            </h3>
+            <p class="font-medium text-base text-slate-500 mb-3 lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A unde
+              temporibus nulla nobis qui nam odit.
+            </p>
+            <div class="items-center flex">
+              <!-- Instagram icon -->
+              <a
+                href=""
+                class="w-14 h-14 justify-items-center content-center rounded-full border-2 border-amber-500 hover:border-primary hover:bg-primary hover:text-white"
+                ><svg
+                  class="fill-current"
+                  role="img"
+                  width="30"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="w-full pt-28 pb-16 bg-slate-200">
+      <div class="container">
+        <div class="px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-lg text-primary mb-2">
+              Portfolio
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">New Project</h2>
+            <p class="font-medium text-md text-slate-500 md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              quibusdam voluptatem fugiat incidunt, quas accusamus ratione
+              blanditiis possimus laboriosam quidem.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="./src/Screenshot 2025-03-22 061819.png"
+                alt="Landing Page"
+                class="w-full"
+              />
+            </div>
+            <div>
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                Blueprint Project
+              </h3>
+              <p class="text-base text-slate-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus, aliquam enim. Mollitia deleniti cum est nesciunt quas
+                nihil cupiditate vel?
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="./src/Screenshot 2025-03-22 061747.png"
+                alt="Landing Page"
+                class="w-full"
+              />
+            </div>
+            <div>
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                Landing Page Project
+              </h3>
+              <p class="text-base text-slate-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus, aliquam enim. Mollitia deleniti cum est nesciunt quas
+                nihil cupiditate vel?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Client Section Start -->
+    <section id="client" class="pt-36 pb-16 bg-slate-300">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-lg text-primary mb-2">
+              Client
+            </h4>
+            <h2 class="font-bold text-slate-500 text-3xl mb-4">Our Team</h2>
+            <p class="font-medium text-md text-slate-500 md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              quibusdam voluptatem fugiat incidunt, quas accusamus ratione
+              blanditiis possimus laboriosam quidem.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a
+              href="#"
+              class="max-w-32 mx-4 py-4 grayscale transition duration-500 hover:grayscale-0 hover:opacity-100 xl:mx-8"
+            >
+              <img
+                src="./src/logo/reshot-icon-google-U3H6LWBGDC.svg"
+                alt="Logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Client Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-16 justify-center bg-slate-200">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-lg text-primary mb-2">Blog</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">Welcome to MyBlog</h2>
+            <p class="font-medium text-md text-slate-500 md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              quibusdam voluptatem fugiat incidunt, quas accusamus ratione
+              blanditiis possimus laboriosam quidem.
+            </p>
+          </div>
+          <div class="flex flex-wrap justify-center">
+            <div class="w-full max-w-100 px-4 md:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidded mb-10">
+                <div class="w-full h-50 bg-dark rounded-t-xl items-center">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjs1ThjpWBfM8-L042vg6iqbbjRKiRc6wW8g&s"
+                    alt="UI UX Design"
+                    class="w-full size-50 rounded-t-xl"
+                  />
+                </div>
+
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl *:text-dark hover:text-primary truncate"
+                      >UI UX Design</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-slate-400 mb-6 truncate">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Unde eius consequatur ut quisquam, consectetur qui.
+                  </p>
+                  <a
+                    href="#"
+                    class="px-6 py-3 font-medium rounded-lg text-sm text-white bg-primary hover:opacity-80 hover:shadow-lg"
+                    >Continue reading...</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-100 px-4 md:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidded mb-10">
+                <div class="w-full h-50">
+                  <img
+                    src="https://www.codingem.com/wp-content/uploads/2021/10/juanjo-jaramillo-mZnx9429i94-unsplash-1024x683.jpg"
+                    alt="Programming"
+                    class="w-full size-50 rounded-t-xl"
+                  />
+                </div>
+
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl *:text-dark hover:text-primary truncate"
+                      >Programming</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-slate-400 mb-6 truncate">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Unde eius consequatur ut quisquam, consectetur qui.
+                  </p>
+                  <a
+                    href="#"
+                    class="px-6 py-3 font-medium rounded-lg text-sm text-white bg-primary hover:opacity-80 hover:shadow-lg"
+                    >Continue reading...</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-100 px-4 md:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidded mb-10">
+                <div class="w-full h-50">
+                  <img
+                    src="https://knackforge.com/wp-content/uploads/2022/11/Benefits-of-ReactJS.jpg"
+                    alt="React JS"
+                    class="w-full size-50 rounded-t-xl"
+                  />
+                </div>
+
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl *:text-dark hover:text-primary truncate"
+                      >React JS</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-slate-400 mb-6 truncate">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis adipisci, a quo itaque, cu
+                  </p>
+                  <a
+                    href="#"
+                    class="px-6 py-3 font-medium rounded-lg text-sm text-white bg-primary hover:opacity-80 hover:shadow-lg"
+                    >Continue reading...</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-lg text-primary mb-2">
+              Contact Us
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">
+              Get closer with our best service.
+            </h2>
+            <p class="font-medium text-md text-slate-500 md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              quibusdam voluptatem fugiat incidunt, quas accusamus ratione
+              blanditiis possimus laboriosam quidem.
+            </p>
+          </div>
+
+          <form>
+            <div class="w-full mx-auto lg:w-2/3">
+              <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-primary"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  class="w-full bg-slate-200 text-dark p-3 ring-0 rounded-md transition focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary focus:bg-slate-100"
+                />
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-bold text-primary"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="w-full bg-slate-200 text-dark p-3 ring-0 rounded-md transition focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary focus:bg-slate-100"
+                />
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="message" class="text-base font-bold text-primary"
+                  >Message</label
+                >
+                <textarea
+                  type="textarea"
+                  id="textarea"
+                  class="w-full bg-slate-200 text-dark p-3 ring-0 rounded-md transition focus:outline-none h-50 focus:ring-1 focus:ring-primary focus:border-primary focus:bg-slate-100"
+                >
+                </textarea>
+              </div>
+
+              <div class="w-full flex justify-center px-4">
+                <button
+                  class="w-full text-base font-semibold md:w-2/3 text-white bg-primary py-3 px-8 rounded-full transition duration-500 hover:shadow-lg hover:opacity-80"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div
+            class="w-full px-4 mb-12 text-base text-slate-300 font-medium md:w-1/3"
+          >
+            <h2 class="text-bold text-4xl text-white mb-5">Waskita</h2>
+            <h3 class="font-bold text-2xl mb-2">Contact Us</h3>
+            <p>adisofyant@gmail.com</p>
+            <p>Malang</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Clients</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-600">
+          <div class="justify-center flex mb-5">
+            <!-- Instagram icon -->
+            <a
+              href=""
+              class="w-10 h-10 justify-items-center content-center rounded-full border-1 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              ><svg
+                class="fill-current"
+                role="img"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center">
+            Dibuat oleh
+            <span class="font-bold text-primary"> Adi Sofyan Tsauri </span> -
+            <a
+              href="https:/tailwindcss.com"
+              target="_blank"
+              class="font-bold text-sky-500"
+              >Tailwind CSS</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
