@@ -1,6 +1,6 @@
 # Web Portfolio
 
-this is a website about my profile as a web developer. you can open it and get closer to me.
+This is a website about my profile as a web developer. You can open it and get closer to me.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://wirocode.github.io/web-portofolio/)
