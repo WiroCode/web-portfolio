@@ -15,7 +15,11 @@
     "tailwindcss": "^4.1.11"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tailwindcss/cli": "^4.1.11",
     "swiper": "^11.2.10"
+=======
+    "@tailwindcss/cli": "^4.1.11"
+>>>>>>> 1b5c04554f76ace90beb58bf20082c197cd7c67b
   }
 }
